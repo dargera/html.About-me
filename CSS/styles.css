@@ -1,0 +1,60 @@
+body {
+   margin: 0px;
+   text-align: center;
+   font-family: 'Merriweather', serif;
+   }
+
+h1{
+    color: #184D47;
+    font-size: 5.625rem; 
+    /* % is better for accessibility 
+     % and em will be added on top of the parent  
+     rem will not get affected by the parent */ 
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2{
+    color: #184D47;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3{
+    color: #184D47;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.top-container{
+    background-color: #CFFFFE;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+    
+}
+
+.bottom-container{
+   
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
